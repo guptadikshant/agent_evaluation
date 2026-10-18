@@ -1,0 +1,25 @@
+[project]
+name = "agent-evaluation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Dikshant Gupta", email = "guptadikshant99@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "deepeval>=2.9.3",
+    "huggingface>=0.0.1",
+    "langchain>=1.4.3",
+    "langchain-huggingface>=1.2.2",
+    "langchain-ollama>=1.1.0",
+    "langchain-openai>=1.7.2",
+    "ollama>=0.6.3",
+    "openai>=3.35.1",
+    "pillow>=12.3.0",
+    "pymupdf>=1.28.2",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=6.1.0",
+    "torchvision>=0.29.1",
+    "transformers>=5.19.0",
+]
