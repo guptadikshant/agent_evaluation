@@ -3,8 +3,8 @@ from datetime import date
 
 from langchain.tools import tool
 
-from agent.data import users_data
-from agent.objects import PurchaseItem
+from refund_agent.data import users_data
+from refund_agent.objects import PurchaseItem
 
 
 @tool

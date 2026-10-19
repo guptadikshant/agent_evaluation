@@ -8,7 +8,7 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
-    "deepeval>=2.9.3",
+    "deepeval>=4.3.1",
     "huggingface>=0.0.1",
     "langchain>=1.4.3",
     "langchain-huggingface>=1.2.2",
@@ -21,5 +21,5 @@ dependencies = [
     "python-dotenv>=1.2.4",
     "sentence-transformers>=6.1.0",
     "torchvision>=0.29.1",
-    "transformers>=5.19.0",
+    "transformers>=5.17.0,<5.19",
 ]

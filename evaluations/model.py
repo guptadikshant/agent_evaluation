@@ -1,0 +1,1 @@
+EVAL_MODEL = "mlx-community/gemma-4-26b-a4b-it-4bit"
